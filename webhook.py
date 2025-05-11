@@ -23,6 +23,3 @@ def webhook():
         set_user_active(telegram_id, 1)
 
     return "OK", 200
-
-if __name__ == "__main__":
-    app.run(port=5000)
